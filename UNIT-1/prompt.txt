@@ -1,0 +1,94 @@
+AI Visualization Prompt — Sorting Complexity Visualizer
+=========================================================
+
+Project: DAA Macro Project — Sorting Complexity Visualizer
+Subject: Design and Analysis of Algorithms (DAA)
+Level  : Beginner Student
+
+----------------------------------------------------------
+PROMPT USED TO GENERATE THIS PROJECT
+----------------------------------------------------------
+
+"I need to create a DAA Macro Project as a beginner student.
+
+Project Title: Sorting Complexity Visualizer
+
+Project Goal:
+Compare the practical execution time of Merge Sort and Quick Sort for
+input sizes n = 10, 100, and 1000 and visualize the results using a
+line graph.
+
+Requirements:
+1. Use Python.
+2. Implement Merge Sort from scratch.
+3. Implement Quick Sort from scratch.
+4. Do not use Python's built-in sorted() or sort() for the algorithms.
+5. Generate random integer arrays for n = 10, 100, and 1000.
+6. Measure the execution time of both algorithms.
+7. Compare the execution times.
+8. Create a line chart using Matplotlib.
+9. X-axis = Input Size (n).
+10. Y-axis = Execution Time.
+11. Show separate lines for Merge Sort and Quick Sort.
+12. Add a title and legend.
+13. Save the graph as sorting_complexity.png.
+14. Print the execution times in the terminal.
+
+Create these files:
+- main.py
+- sorting.py
+- requirements.txt
+- README.md
+- prompt.txt
+
+README.md must contain:
+- Project title
+- Problem statement
+- Objective
+- Technologies used
+- Merge Sort explanation
+- Quick Sort explanation
+- Pseudocode for both algorithms
+- Time complexity table
+- Explanation of the graph
+- Installation steps
+- How to run the project
+- Expected output
+- Conclusion
+
+Keep everything beginner-friendly and simple.
+Add comments to the code.
+Do not use unnecessary advanced concepts."
+
+----------------------------------------------------------
+HOW THIS PROMPT WAS USED
+----------------------------------------------------------
+
+This prompt was submitted to Kiro AI (an AI-powered development
+environment built on VS Code). The AI generated all project files
+automatically including:
+
+  - sorting.py  : Merge Sort and Quick Sort implemented from scratch
+  - main.py     : Timing, terminal output, and matplotlib graph
+  - requirements.txt : Python package dependencies
+  - README.md   : Full project documentation
+  - prompt.txt  : This file — the original AI prompt
+
+----------------------------------------------------------
+AI TOOL USED
+----------------------------------------------------------
+
+Tool    : Kiro AI (IDE)
+Model   : Auto (dynamically selected)
+Date    : October 2026
+
+----------------------------------------------------------
+NOTES FOR STUDENTS
+----------------------------------------------------------
+
+- The code is intentionally kept simple and beginner-friendly.
+- Every function and important line has a comment explaining it.
+- No advanced Python features (decorators, generators, etc.) were used.
+- The algorithms are implemented manually without any built-in sort.
+- This project is a great reference for understanding how AI tools
+  can assist in building complete, well-documented academic projects.
