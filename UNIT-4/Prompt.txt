@@ -1,0 +1,73 @@
+Create a professional academic visualization of the State Space Tree for the N-Queens Problem using Backtracking, for N = 4.
+
+Title:
+"N-Queens State Space Tree using Backtracking (N = 4)"
+
+Show the complete backtracking search process as a hierarchical tree.
+
+Requirements:
+
+1. Start with a root node labeled "START".
+
+2. Each tree level represents one row of the 4×4 chessboard:
+   - Level 1 → Row 1
+   - Level 2 → Row 2
+   - Level 3 → Row 3
+   - Level 4 → Row 4
+
+3. Each child node represents a possible column in which the queen is placed.
+
+4. Label each placement clearly using coordinates such as:
+   Q(1,1), Q(1,2), Q(1,3), Q(1,4)
+   Q(2,1), Q(2,2), etc.
+
+5. Mark valid placements in GREEN.
+
+6. Mark invalid placements in RED and label them "INVALID / PRUNED".
+
+7. Invalid placements must represent conflicts caused by:
+   - Same column
+   - Same diagonal
+
+8. Show BLUE arrows or labels marked "BACKTRACK" whenever the algorithm returns to a previous decision after reaching an invalid path.
+
+9. Continue the tree until all four queens are successfully placed.
+
+10. Clearly highlight the TWO complete solutions for N = 4.
+
+Solution 1:
+. Q . .
+. . . Q
+Q . . .
+. . Q .
+
+Solution 2:
+. . Q .
+Q . . .
+. . . Q
+. Q . .
+
+11. Display a small 4×4 chessboard inside important leaf/solution nodes so the queen placements are visually understandable.
+
+12. Include a legend:
+GREEN = Valid Placement
+RED = Invalid / Pruned Branch
+BLUE = Backtracking
+GREEN HIGHLIGHT = Complete Solution
+
+13. Use clean connecting arrows between parent and child nodes.
+
+14. Make the tree logically organized from top to bottom and avoid overlapping branches.
+
+15. Use a clean white background, professional academic colors, readable fonts, and a technical infographic style.
+
+16. The final image should be suitable for:
+   - DAA college project
+   - GitHub README
+   - PPT presentation
+   - Classroom explanation
+
+Important:
+The visualization must show the BACKTRACKING PROCESS and STATE-SPACE TREE, not just the final chessboard solutions.
+
+Make the complete diagram detailed, readable, and mathematically correct.
