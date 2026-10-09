@@ -1,0 +1,69 @@
+Create a clean and easy-to-understand DAA visualization showing the Branch and Bound search tree for the Travelling Salesman Problem (TSP) with 4 cities: A, B, C, and D.
+
+Cost Matrix:
+
+        A   B   C   D
+    A   0  10  15  20
+    B  10   0  35  25
+    C  15  35   0  30
+    D  20  25  30   0
+
+Problem:
+Find the minimum-cost tour that starts from A, visits B, C, and D exactly once, and finally returns to A.
+
+Visualization requirements:
+
+1. Start with the root node:
+   A
+
+2. From A, create three branches:
+   A → B
+   A → C
+   A → D
+
+3. Expand each branch by selecting the remaining unvisited cities.
+
+4. Continue the search until complete tours are obtained.
+
+5. Show the complete possible tours:
+   A → B → C → D → A = 95
+   A → B → D → C → A = 80
+   A → C → B → D → A = 95
+   A → C → D → B → A = 80
+   A → D → B → C → A = 95
+   A → D → C → B → A = 95
+
+6. Show the cost/bound beside each partial branch.
+
+7. Clearly demonstrate the Branch and Bound process:
+   - Calculate a bound for partial solutions.
+   - Expand promising branches.
+   - Prune branches that cannot produce a better solution.
+   - Maintain the current best solution.
+   - Update the best cost whenever a better complete tour is found.
+
+8. Highlight the optimal solution:
+   A → B → D → C → A
+   Minimum Cost = 80
+
+9. Also show that:
+   A → C → D → B → A
+   has the same minimum cost of 80.
+
+10. Use different visual indicators for:
+   - Normal/unexplored branches
+   - Expanded branches
+   - Pruned branches
+   - Final optimal branch
+
+11. Draw the tree from top to bottom in a clear hierarchical structure.
+
+12. Keep the visualization simple, academic, and suitable for a DAA Macro Project presentation.
+
+13. Add a small title at the top:
+   "TSP using Branch and Bound – Search Tree"
+
+14. Add a small note at the bottom:
+   "Branch and Bound reduces unnecessary search by pruning non-promising branches."
+
+Make sure all city names, paths, costs, and the final minimum cost are clearly readable and correctly connected in the search tree.
